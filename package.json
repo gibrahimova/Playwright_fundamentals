@@ -1,0 +1,17 @@
+{
+  "name": "playwirght_with_js",
+  "version": "1.0.0",
+  "description": "Automated software testing",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium ",
+    "tests:firefox": "playwright test --config=playwright.config.ts --project=Firefox",
+    "tests:webkit": "playwright test --config=playwright.config.ts --project=Webkit "
+  },
+  "author": "Gulya",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.24.0",
+    "prettier": "^2.7.1"
+  }
+}
