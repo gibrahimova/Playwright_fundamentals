@@ -120,7 +120,7 @@ test.describe.parallel.only('Before&After Hooks',() => {
     })
 
     //Using custom helpers
-    test('Custom helpers', async({page})=>{
+    test.only('Custom helpers', async({page})=>{
 
         await laodHomePage(page)
         //await page.pause()

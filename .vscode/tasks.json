@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "tests:e2e",
+			"problemMatcher": [],
+			"label": "npm: tests:e2e",
+			"detail": "playwright test --config=e2e.config.ts --headed --project=Chromium"
+		}
+	]
+}
